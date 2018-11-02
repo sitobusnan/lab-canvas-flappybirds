@@ -3,9 +3,10 @@ window.onload = function() {
     startGame();
   };
 
-  var game = new Game();
+  var game = new Game("flappy");
+ 
 
-  function startGame(){
+  function startGame(ctx){
     game.start();
   }
 };
