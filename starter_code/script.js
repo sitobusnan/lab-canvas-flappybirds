@@ -3,8 +3,9 @@ window.onload = function() {
     startGame();
   };
 
-  function startGame() {
+  var game = new Game();
 
+  function startGame(){
+    game.start();
   }
-
 };
